@@ -1,0 +1,1 @@
+$ convbin -j bin -k 8xv -i WDSTF.txt -o WD.8xv -n FIRE

@@ -1,0 +1,27 @@
+	section .icon
+
+	jp	___prgm_init
+	db	$01
+	public ___icon
+___icon:
+	db	$10, $10
+	db	$FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
+	db	$FF, $FF, $FF, $FF, $FF, $FF, $FF, $E6, $E6, $E6, $E0, $E0, $E0, $E0, $E0, $FF
+	db	$FF, $FF, $FF, $FF, $FF, $E6, $E6, $E6, $E6, $E6, $E6, $E6, $E0, $E0, $E0, $FF
+	db	$FF, $FF, $FF, $00, $00, $E6, $E6, $E6, $E6, $E6, $E6, $E0, $E0, $E0, $E0, $FF
+	db	$FF, $FF, $00, $3A, $3A, $00, $E6, $E6, $E6, $E6, $E0, $E0, $E0, $E6, $E0, $FF
+	db	$FF, $FF, $00, $3A, $3A, $FF, $00, $E6, $E6, $E0, $E0, $E0, $E6, $E6, $E0, $FF
+	db	$FF, $00, $3A, $3A, $FF, $FF, $3A, $00, $E0, $E0, $E0, $E6, $E6, $E6, $E6, $FF
+	db	$FF, $00, $3A, $3A, $3A, $FF, $3A, $3A, $00, $E0, $E6, $E6, $E6, $E6, $E6, $FF
+	db	$FF, $00, $04, $04, $3A, $04, $3A, $3A, $3A, $00, $E6, $E6, $E6, $E6, $E6, $FF
+	db	$FF, $00, $04, $04, $04, $04, $3A, $3A, $3A, $3A, $00, $E6, $E6, $E6, $E6, $FF
+	db	$FF, $FF, $00, $04, $04, $3A, $FF, $FF, $3A, $3A, $3A, $00, $E6, $E6, $FF, $FF
+	db	$FF, $FF, $00, $3A, $3A, $3A, $3A, $FF, $04, $04, $FF, $3A, $00, $FF, $FF, $FF
+	db	$FF, $FF, $FF, $00, $FF, $3A, $3A, $04, $04, $04, $04, $3A, $00, $FF, $FF, $FF
+	db	$FF, $FF, $FF, $FF, $00, $00, $3A, $3A, $3A, $3A, $00, $00, $FF, $FF, $FF, $FF
+	db	$FF, $FF, $FF, $FF, $FF, $FF, $00, $00, $00, $00, $FF, $FF, $FF, $FF, $FF, $FF
+	db	$FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF, $FF
+	public ___description
+___description:
+	db	"Physics Wiki Program", 0
+___prgm_init:
