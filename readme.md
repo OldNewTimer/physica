@@ -1,7 +1,7 @@
-### Hello World Demo
-
-Displays the text `Hello, World!` on the calculator.
+### Physica
+![Logo](icon.png?raw=true "Logo")
+A wiki for all things college physics I and II
 
 ---
 
-This demo is part of the CE C SDK Toolchain.
+This project is developed with the CE C SDK Toolchain.
